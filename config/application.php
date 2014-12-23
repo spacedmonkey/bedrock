@@ -55,6 +55,12 @@ define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('NONCE_SALT'));
 
 /**
+ * Salt for Cache Key and Version for CSS / JS
+ */
+define( 'WP_CACHE_KEY_SALT', getenv('WP_CACHE_KEY_SALT') );
+define( 'WP_SITE_VERSION',   getenv('WP_SITE_VERSION') );
+
+/**
  * Disable updates
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
