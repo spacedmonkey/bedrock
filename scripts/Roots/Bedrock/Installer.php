@@ -13,7 +13,9 @@ class Installer {
     'AUTH_SALT',
     'SECURE_AUTH_SALT',
     'LOGGED_IN_SALT',
-    'NONCE_SALT'
+    'NONCE_SALT',
+    'WP_CACHE_KEY_SALT',
+    'WP_SITE_VERSION'
   );
 
   public static function addSalts(Event $event) {
