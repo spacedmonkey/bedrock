@@ -7,6 +7,7 @@ define('DB_HOST', getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost');
 
 define('WP_HOME', getenv('WP_HOME'));
 define('WP_SITEURL', getenv('WP_SITEURL'));
+define('DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE'));
 
 define('SAVEQUERIES', true);
 define('WP_DEBUG', true);
