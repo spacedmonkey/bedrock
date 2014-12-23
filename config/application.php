@@ -26,9 +26,14 @@ if (file_exists($env_config)) {
 /**
  * Custom Content Directory
  */
-define('CONTENT_DIR', '/app');
-define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
-define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
+define('CONTENT_DIR',     '/app');
+define('WP_CONTENT_DIR',  $webroot_dir . CONTENT_DIR);
+define('WP_CONTENT_URL',  WP_HOME . CONTENT_DIR);
+define('WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/plugins' );
+define('WP_PLUGIN_URL',   WP_CONTENT_URL . '/plugins' );
+define('WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-plugins' );
+define('WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-plugins' );
+define( 'UPLOADS',        WP_CONTENT_DIR . '/uploads' );
 
 /**
  * DB settings
@@ -50,11 +55,32 @@ define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('NONCE_SALT'));
 
 /**
- * Custom Settings
+ * Disable updates
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
+define('WP_AUTO_UPDATE_CORE', false );
+
+/**
+ * Crons
+ */
 define('DISABLE_WP_CRON', true);
+define('ALTERNATE_WP_CRON', true );
+/**
+ * Disable file editor
+ */ 
 define('DISALLOW_FILE_EDIT', true);
+define('DISALLOW_FILE_MODS', true );
+
+/**
+ * Disable big updates
+ */
+define( 'DO_NOT_UPGRADE_GLOBAL_TABLES', true );
+ 
+/** Location of the DB config file for HyperDB **/
+define( 'DB_CONFIG_FILE', __DIR__ . '/db-config.php' );
+
+/** Good morning! */
+define( 'SUNRISE', true );
 
 /**
  * Bootstrap WordPress
