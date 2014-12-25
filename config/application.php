@@ -30,8 +30,10 @@ define('CONTENT_DIR',     '/app');
 define('WP_CONTENT_DIR',  $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL',  WP_HOME . CONTENT_DIR);
 define('WP_PLUGIN_DIR',   WP_CONTENT_DIR . '/plugins' );
+define('PLUGINDIR',       WP_CONTENT_DIR . '/plugins' );
 define('WP_PLUGIN_URL',   WP_CONTENT_URL . '/plugins' );
 define('WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-plugins' );
+define('MUPLUGINDIR',     WP_CONTENT_DIR . '/mu-plugins' );
 define('WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-plugins' );
 define( 'UPLOADS',        WP_CONTENT_DIR . '/uploads' );
 

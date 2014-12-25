@@ -25,35 +25,45 @@
   },
   "config": {
     "preferred-install": "dist",
-    "generate-salts": true
+    "generate-salts": true,
+    "update-cache-keys": true,
+    "bin-dir":     "bin"
+  
   },
   "autoload": {
-    "psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
+    "psr-0": {"Roots\\Bedrock\\Installer": "scripts", "Roots\\Bedrock\\Updater": "scripts"}
   },
   "scripts": {
-    "post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
+    "post-install-cmd": ["Roots\\Bedrock\\Installer::addSalts"],
+    "post-update-cmd": ["Roots\\Bedrock\\Updater::updateKeys"]
   },
   "repositories": [
     {
       "type": "composer",
       "url": "http://wpackagist.org"
+    },
+    {
+       "type": "vcs",
+       "url":  "https://bitbucket.org/spacedmonkey/roots.git"
     }
   ],
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "@stable",
     "composer/installers": "1.x",
-    "vlucas/phpdotenv": "1.0.9",
+    "vlucas/phpdotenv": "1.0.x",
     "humanmade/mercator"                        : "dev-master",
-    "spacedmonkey/custom-post-type-rss-feed"    : "@stable"
+    "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
+    "spacedmonkey/super-simple-events"          : "@stable", 
+    "spacedmonkey/roots"                        : "@stable",    
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
     "wpackagist-plugin/hyperdb"                 : "@stable",
     "wpackagist-plugin/memcached-redux"         : "@stable",
     "wpackagist-plugin/wordpress-seo"           : "@stable",
-    "wp-cli/wp-cli"  : "@stable"
+    "wp-cli/wp-cli"                             : "@stable"
   },
   "require-dev" : {
-        "johnbillion/query-monitor"                   : "2.x",
+        "wpackagist-plugin/query-monitor"             : "2.x",
         "phpunit/phpunit"                             : "3.7.x@stable"
   },
   "extra": {
