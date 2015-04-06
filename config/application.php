@@ -35,6 +35,7 @@ define('WP_PLUGIN_URL',   WP_CONTENT_URL . '/plugins' );
 define('WPMU_PLUGIN_DIR', WP_CONTENT_DIR . '/mu-plugins' );
 define('MUPLUGINDIR',     WP_CONTENT_DIR . '/mu-plugins' );
 define('WPMU_PLUGIN_URL', WP_CONTENT_URL . '/mu-plugins' );
+define('WPDI_PLUGIN_DIR', WP_CONTENT_DIR . '/dropins' );
 define( 'UPLOADS',        WP_CONTENT_DIR . '/uploads' );
 
 /**
@@ -81,7 +82,7 @@ define('DISALLOW_FILE_MODS', true );
 
 /** 
  * Enable multisite
- */
+ 
 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
@@ -89,7 +90,7 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
-
+*/
 /**
  * Disable big updates
  */
@@ -99,7 +100,7 @@ define( 'DO_NOT_UPGRADE_GLOBAL_TABLES', true );
 define( 'DB_CONFIG_FILE', __DIR__ . '/db-config.php' );
 
 /** Good morning! */
-define( 'SUNRISE', true );
+//define( 'SUNRISE', true );
 
 /**
  * Bootstrap WordPress

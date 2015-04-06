@@ -1,3 +1,3 @@
 <?php
 
-require_once WPMU_PLUGIN_DIR . '/hyperdb/db.php';
+require_once WPDI_PLUGIN_DIR . '/hyperdb/db.php';
