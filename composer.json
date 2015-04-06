@@ -64,7 +64,6 @@
     "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
-    "spacedmonkey/custom-post-type-rss-feed"    : "*",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
     "spacedmonkey/simple-google-news-sitemap"   : "@stable",
     "spacedmonkey/super-simple-events"          : "@stable",
