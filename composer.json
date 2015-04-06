@@ -64,10 +64,10 @@
     "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
-    "spacedmonkey/custom-post-type-rss-feed"    : "@stable"
+    "spacedmonkey/custom-post-type-rss-feed"    : "@stable",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
     "spacedmonkey/simple-google-news-sitemap"   : "@stable",
-    "spacedmonkey/super-simple-events"          : "@stable"
+    "spacedmonkey/super-simple-events"          : "@stable",
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
     "wpackagist-plugin/batcache"                : "@stable",
     "wpackagist-plugin/contact-form-7"          : "@stable",
