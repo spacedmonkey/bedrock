@@ -68,8 +68,7 @@
     "wpackagist-plugin/hyperdb"                 : "@stable",
     "wpackagist-plugin/jetpack"                 : "@stable",
     "wpackagist-plugin/really-simple-captcha"   : "@stable",
-    "wpackagist-plugin/wordpress-seo"           : "@stable",
-    "wp-cli/wp-cli"                             : "@stable"
+    "wpackagist-plugin/wordpress-seo"           : "@stable"
   },
   "require-dev" : {
         "wpackagist-plugin/query-monitor"             : "2.x",
