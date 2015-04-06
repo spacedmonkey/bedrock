@@ -83,7 +83,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "automattic/advanced-post-cache"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "automattic/advanced-post-cache", "wpackagist-plugin/hyperdb"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
