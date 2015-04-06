@@ -45,20 +45,35 @@
     {
        "type": "vcs",
        "url":  "https://bitbucket.org/spacedmonkey/roots.git"
+    },
+    {
+       "type": "vcs",
+       "url":  "https://github.com/spacedmonkey/advanced-post-cache.git"
+    },
+    {
+       "type": "vcs",
+       "url":  "https://github.com/spacedmonkey/memcache-object-cache.git"
     }
+    
   ],
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "@stable",
     "composer/installers": "1.x",
     "vlucas/phpdotenv": "1.0.x",
+    "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer",
     "humanmade/mercator"                        : "dev-master",
+    "humanmade/memcache-object-cache"           : "dev-master",
+    "spacedmonkey/custom-post-type-rss-feed"    : "@stable"
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
-    "spacedmonkey/super-simple-events"          : "@stable", 
-    "spacedmonkey/roots"                        : "@stable",    
+    "spacedmonkey/simple-google-news-sitemap"   : "@stable",
+    "spacedmonkey/super-simple-events"          : "@stable"
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
+    "wpackagist-plugin/batcache"                : "@stable",
+    "wpackagist-plugin/contact-form-7"          : "@stable",
     "wpackagist-plugin/hyperdb"                 : "@stable",
-    "wpackagist-plugin/memcached-redux"         : "@stable",
+    "wpackagist-plugin/jetpack"                 : "@stable",
+    "wpackagist-plugin/really-simple-captcha"   : "@stable",
     "wpackagist-plugin/wordpress-seo"           : "@stable",
     "wp-cli/wp-cli"                             : "@stable"
   },
