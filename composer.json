@@ -61,7 +61,7 @@
     "johnpbloch/wordpress": "@stable",
     "composer/installers": "1.x",
     "vlucas/phpdotenv": "1.0.x",
-    "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer",
+    "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer-2",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
