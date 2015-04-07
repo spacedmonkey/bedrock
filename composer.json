@@ -48,6 +48,10 @@
     },
     {
        "type": "vcs",
+       "url":  "https://github.com/spacedmonkey/advanced-post-cache.git"
+    },
+    {
+       "type": "vcs",
        "url":  "https://github.com/spacedmonkey/memcache-object-cache.git"
     }
     
@@ -57,6 +61,7 @@
     "johnpbloch/wordpress": "@stable",
     "composer/installers": "1.x",
     "vlucas/phpdotenv": "1.0.x",
+    "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
@@ -77,7 +82,7 @@
   "extra": {
     "installer-paths": {
       "web/app/dropins/{$name}/": ["wpackagist-plugin/hyperdb", "wpackagist-plugin/batcache","humanmade/mercator","humanmade/memcache-object-cache"],
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "automattic/advanced-post-cache"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
