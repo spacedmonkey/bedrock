@@ -68,6 +68,7 @@
     "spacedmonkey/simple-google-news-sitemap"   : "@stable",
     "spacedmonkey/super-simple-events"          : "@stable",
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
+    "wpackagist-plugin/ajax-comment-loading"    : "@stable",
     "wpackagist-plugin/batcache"                : "@stable",
     "wpackagist-plugin/contact-form-7"          : "@stable",
     "wpackagist-plugin/hyperdb"                 : "@stable",
@@ -82,7 +83,7 @@
   "extra": {
     "installer-paths": {
       "web/app/dropins/{$name}/": ["wpackagist-plugin/hyperdb", "wpackagist-plugin/batcache","humanmade/mercator","humanmade/memcache-object-cache"],
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "automattic/advanced-post-cache"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
