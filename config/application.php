@@ -99,6 +99,8 @@ define( 'DO_NOT_UPGRADE_GLOBAL_TABLES', true );
 /** Location of the DB config file for HyperDB **/
 define( 'DB_CONFIG_FILE', __DIR__ . '/db-config.php' );
 
+require __DIR__ . '/batcache-config.php';
+
 /** Good morning! */
 //define( 'SUNRISE', true );
 
