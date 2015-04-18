@@ -82,11 +82,6 @@ if ( $_SERVER['REQUEST_URI'] == '/sitemap.xml' &&  $_SERVER['QUERY_STRING'] == '
 	$batcache['max_age'] = 0; // disable batcache
 
 
-// Mobile batcache
-if( jetpack_is_mobile() && isset( $_COOKIE['akm_mobile'] ) )
-	$batcache['unique']['mobile-force'] = $_COOKIE['akm_mobile'] == 'true' ? 'true' : 'false'; // the akm_mobile cookie is used to force the desktop version of the site when on a mobile device
-
-
 // UppSite / MySiteApp
 if ( ( isset($_SERVER['HTTP_USER_AGENT']) && false !== strpos( strtolower( $_SERVER['HTTP_USER_AGENT'] ), 'mysiteapp' ) ) || isset( $_COOKIE[ 'uppsite_theme_select' ] ) )
 	$batcache['max_age'] = 0; // disable batcache
