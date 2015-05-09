@@ -78,7 +78,7 @@
     "composer/installers": "1.x",
     "vlucas/phpdotenv": "1.0.x",
     "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer-2",
-    "spacedmonkey/http-concat"                  : "*",
+    "spacedmonkey/http-concat"                  : "dev-master",
     "spacedmonkey/spacedmonkey"                 : "dev-master",
     "spacedmonkey/kandyweeding"                 : "dev-master",
     "spacedmonkey/jdh"                          : "dev-master",
@@ -96,7 +96,8 @@
     "wpackagist-plugin/hyperdb"                 : "@stable",
     "wpackagist-plugin/google-analytics-for-wordpress"       : "@stable",
     "wpackagist-plugin/jetpack"                 : "@stable",
-    "wpackagist-plugin/really-simple-captcha"   : "@stable"
+    "wpackagist-plugin/really-simple-captcha"   : "@stable",
+    "wpackagist-plugin/wordpress-bootstrap-css" : "@stable"
   },
   "require-dev" : {
         "wpackagist-plugin/query-monitor"             : "2.x",
