@@ -80,21 +80,6 @@ define('ALTERNATE_WP_CRON', true );
 define('DISALLOW_FILE_EDIT', true);
 define('DISALLOW_FILE_MODS', true );
 
-/** 
- * Enable multisite
- 
-
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', true);
-define('PATH_CURRENT_SITE', '/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
-*/
-/**
- * Disable big updates
- */
-define( 'DO_NOT_UPGRADE_GLOBAL_TABLES', true );
  
 /** Location of the DB config file for HyperDB **/
 define( 'DB_CONFIG_FILE', __DIR__ . '/db-config.php' );
