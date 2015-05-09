@@ -48,6 +48,18 @@
     },
     {
        "type": "vcs",
+       "url":  "https://bitbucket.org/spacedmonkey/jdh.git"
+    },
+    {
+       "type": "vcs",
+       "url":  "https://bitbucket.org/spacedmonkey/spacedmonkey.git"
+    },
+    {
+       "type": "vcs",
+       "url":  "https://bitbucket.org/spacedmonkey/kandyweeding.git"
+    },
+    {
+       "type": "vcs",
        "url":  "https://github.com/spacedmonkey/advanced-post-cache.git"
     },
     {
@@ -67,6 +79,9 @@
     "vlucas/phpdotenv": "1.0.x",
     "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer-2",
     "spacedmonkey/http-concat"                  : "*",
+    "spacedmonkey/spacedmonkey"                 : "dev-master",
+    "spacedmonkey/kandyweeding"                 : "dev-master",
+    "spacedmonkey/jdh"                          : "dev-master",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
