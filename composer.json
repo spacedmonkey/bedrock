@@ -56,7 +56,7 @@
     },
     {
        "type": "vcs",
-       "url":  "https://github.com/spacedmonkey/nginx-http-concat.git"
+       "url":  "https://github.com/spacedmonkey/http-concat.git"
     }
     
   ],
@@ -66,13 +66,12 @@
     "composer/installers": "1.x",
     "vlucas/phpdotenv": "1.0.x",
     "automattic/advanced-post-cache"            : "dev-spacedmonkey-composer-2",
-    "automattic/nginx-http-concat"              : "*",
+    "spacedmonkey/http-concat"                  : "*",
     "humanmade/mercator"                        : "dev-master",
     "humanmade/memcache-object-cache"           : "dev-master",
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
     "spacedmonkey/simple-google-news-sitemap"   : "@stable",
     "spacedmonkey/super-simple-events"          : "@stable",
-    "yoast/google-analytics"                    : "@stable",
     "yoast/wordpress-seo"                       : "@stable",
     "wp-cli/wp-cli"                             : "@stable",
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
@@ -80,8 +79,9 @@
     "wpackagist-plugin/batcache"                : "@stable",
     "wpackagist-plugin/contact-form-7"          : "@stable",
     "wpackagist-plugin/hyperdb"                 : "@stable",
+    "wpackagist-plugin/google-analytics-for-wordpress"       : "@stable",
     "wpackagist-plugin/jetpack"                 : "@stable",
-    "wpackagist-plugin/really-simple-captcha"   : "@stable",
+    "wpackagist-plugin/really-simple-captcha"   : "@stable"
   },
   "require-dev" : {
         "wpackagist-plugin/query-monitor"             : "2.x",
