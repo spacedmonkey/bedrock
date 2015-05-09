@@ -72,6 +72,8 @@
     "spacedmonkey/disable-xml-rpc-fully"        : "@stable", 
     "spacedmonkey/simple-google-news-sitemap"   : "@stable",
     "spacedmonkey/super-simple-events"          : "@stable",
+    "yoast/google-analytics"                    : "@stable",
+    "yoast/wordpress-seo"                       : "@stable",
     "wp-cli/wp-cli"                             : "@stable",
     "wpackagist-plugin/advanced-custom-fields"  : "@stable",
     "wpackagist-plugin/ajax-comment-loading"    : "@stable",
@@ -80,7 +82,6 @@
     "wpackagist-plugin/hyperdb"                 : "@stable",
     "wpackagist-plugin/jetpack"                 : "@stable",
     "wpackagist-plugin/really-simple-captcha"   : "@stable",
-    "wpackagist-plugin/wordpress-seo"           : "@stable"
   },
   "require-dev" : {
         "wpackagist-plugin/query-monitor"             : "2.x",
